@@ -13,4 +13,4 @@ ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/var/run
   - `docker volume rm $(docker volume ls -q)`
   - `docker rmi -f $(docker images -a -q)`
   - `docker volume ls -qf dangling=true | xargs -r docker volume rm`
-	- `docker system prune -f -a`
+  - `docker system prune -f -a`
